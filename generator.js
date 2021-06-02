@@ -22,7 +22,7 @@ function generate() {
     
     let ck = new CoinKey(Buffer.from(privateKeyHex, 'hex'))
     ck.compressed = false
-    console.log(ck.privateWif) // don't do this if you want even faster performance.
+    console.log(ck.publicAddress) // don't do this if you want even faster performance.
     fs.readFile('riches.txt', function (err, data) {
         if (err) throw err;
         if(data.includes(ck.publicAddress)){ // if a wallet generated matches any of the ones in your list of wallets
