@@ -2,7 +2,7 @@
 Generate random bitcoin wallets, private keys and seeds and then search if they match a wallet that contains some kind of balance, and then basically take it.
 
 # WANT TO THANK ME?
-If you would like to tip me in case you won anything or you appreciate the program, here is my BTC wallet and ETH. It will be greatly appreciated. Also you can give this repository a star :)
+If you would like to tip me in case you won anything or you appreciate the program, here is my BTC wallet and ETH. It will be greatly appreciated. Also you can give this project a star :)
 
 My Bitcoin: 1B8xs4LWbwFq4Zi4pzEmjNYkTCgsUByb5L
 
