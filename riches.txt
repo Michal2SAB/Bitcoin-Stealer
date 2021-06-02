@@ -1,0 +1,4 @@
+1P5ZEDWTKTFGxQjZphgWPQUpe554WKDfHQ
+1FeexV6bAHb8ybZjqQMjJrcCrHGW9sb6uF
+
+^ just an example, you can add way more wallets here yourself and remove this line.
