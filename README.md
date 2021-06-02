@@ -1,6 +1,12 @@
 # Bitcoin-Stealer
 Generate random bitcoin wallets, private keys and seeds and then search if they match a wallet that contains some kind of balance, and then basically take it.
 
+# WANNA THANK ME?
+If you would like to tip me in case you won anything or you appreciate the program, here is my BTC wallet and ETH. It will be greatly appreciated.
+
+My Bitcoin: 1B8xs4LWbwFq4Zi4pzEmjNYkTCgsUByb5L
+My Ethereum: 0xe89c84A7758429b4D11a2091e1dccf7433328Fa9
+
 # HOW TO RUN
 Just open run.bat in the folder, it will start node.bat which will start the generator. Run.bat will work in background and re-run the generator every 100 seconds because at a certain point it would have a memory leak error and we don't want that. But don't worry, it won't interrupt anything you're doing, it will run minimized every time.
 
