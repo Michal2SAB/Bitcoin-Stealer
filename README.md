@@ -21,7 +21,7 @@ Just open run.bat in the folder, it will start node.bat which will start the gen
 Go to the test folder and hit run. It will show you what would happen if a wallet from your list was found.
 
 # WHY DO THIS?
-There is a lot of wallets with high balances that are lost forever, this program could possibly find them and take the btc out of them.
+There are a lot of wallets with high balances that are lost forever, this program could possibly find them and take the btc out of them.
 
 # NOTE
 I'm not responsible for what you do with this, I made this for fun.
