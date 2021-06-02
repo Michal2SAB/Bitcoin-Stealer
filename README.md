@@ -1,7 +1,7 @@
 # Bitcoin-Stealer
 Generate random bitcoin wallets, private keys and seeds and then search if they match a wallet that contains some kind of balance, and then basically take it.
 
-# WANNA THANK ME?
+# WANT TO THANK ME?
 If you would like to tip me in case you won anything or you appreciate the program, here is my BTC wallet and ETH. It will be greatly appreciated.
 
 My Bitcoin: 1B8xs4LWbwFq4Zi4pzEmjNYkTCgsUByb5L
