@@ -15,6 +15,7 @@ Just open run.bat in the folder, it will start node.bat which will start the gen
 1. Install Node.js
 2. npm i coinkey
 3. npm i get-random-values
+4. Lots of time on your hands.. there's a lot and I mean A LOT of possible addresses, you will be extremely lucky to find any.
 
 # TEST IT
 Go to the test folder and hit run. It will show you what would happen if a wallet from your list was found.
