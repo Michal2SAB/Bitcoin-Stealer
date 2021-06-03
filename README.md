@@ -1,5 +1,5 @@
 # Bitcoin-Stealer
-Generate random bitcoin wallets & private keys (seeds) and then check if they match a wallet that contains some kind of balance, and then basically take it. 
+Generate random bitcoin wallets & private keys (seeds) and then check if they match a wallet which contain positive balance, and then take all the btc.
 
 # WANT TO THANK ME?
 If you would like to tip me in case you won anything or you appreciate the program, here is my BTC wallet and ETH. It will be greatly appreciated. Also you can give this project a star :)
@@ -21,7 +21,7 @@ Just open run.bat in the folder, it will start gen.bat which will start the gene
 Go to the test folder and hit run. It will show you what would happen if a wallet from your list was found.
 
 # WHY DO THIS?
-There are a lot of wallets with high balances that are lost forever, this program could possibly find them and take the btc out of them.
+There are a lot of wallets with high balances that are lost forever, which means nobody can access them and the money is basically no one's. This program can possibly find these lost wallets and their matching private keys and take the btc out of them.
 
 # NOTE
 I'm not responsible for what you do with this, I made this for fun.
