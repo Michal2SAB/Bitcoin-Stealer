@@ -23,7 +23,7 @@ It will start gen.bat, which will start the generator.js. Run.bat will work in b
 Go to the test folder and hit run. It will show you what would happen if a wallet from your list was found.
 
 # WHY DO THIS?
-There are a lot of wallets with high balances that are lost forever, which means nobody can access them and the money is basically no one's. This program can possibly find these lost wallets and their matching private keys and take the btc out of them.
+There are a lot of wallets with high balances that are lost forever, which means nobody can access them and the money is basically there just to be picked up by anyone. This program can possibly find these lost wallets and their matching private keys and take the btc out of them.
 
 # NOTE
 I'm not responsible for what you do with this, I made this for fun.
