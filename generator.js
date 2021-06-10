@@ -4,27 +4,37 @@ const CoinKey = require('coinkey')
 const fs = require('fs');
 
 function generate() {
-    let privateKeyHex = r(64) // generate random private key hex
-    let ck = new CoinKey(Buffer.from(privateKeyHex, 'hex')) // create new bitcoin key pairs
+    // generate random private key hex
+    let privateKeyHex = r(64)
+    
+    // create new bitcoin key pairs
+    let ck = new CoinKey(Buffer.from(privateKeyHex, 'hex'))
     
     ck.compressed = false
     console.log(ck.publicAddress) // don't do this if you want faster performance (even 31x faster without logging wallets)
-    
-    fs.readFile('riches.txt', function (err, data) { // if generated wallet matches any from the riches.txt file
+   
+    fs.readFile('riches.txt', function (err, data) {
         if (err) throw err;
+        
+        // if generated wallet matches any from the riches.txt file, tell us we won!
         if(data.includes(ck.publicAddress)){
             console.log("")
             process.stdout.write('\x07');
             console.log("\x1b[32m%s\x1b[0m", ">> Success: " + ck.publicAddress)
             successString = "Wallet: " + ck.publicAddress + "\n\nSeed: " + ck.privateWif
-            fs.writeFileSync('Success.txt', successString, (err) => { // save the wallet and its private key (seed) 
+            
+            // save the wallet and its private key (seed) to a Success.txt file in the same folder 
+            fs.writeFileSync('Success.txt', successString, (err) => {
                 if (err) throw err; 
             })
-            process.exit() // close program after success
+            
+            // close program after success
+            process.exit()
         }
     });
 }
 
+// the function to generate random hex string
 function r(l) {
     let randomChars = 'ABCDF0123456789';
     let result = '';
