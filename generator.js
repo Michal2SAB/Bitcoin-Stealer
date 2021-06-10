@@ -1,44 +1,40 @@
 "use strict";
 
 const CoinKey = require('coinkey')
-const getRandomValues = require('get-random-values')
 const fs = require('fs');
 
 function generate() {
-    let randArr = new Uint8Array(32);
-    getRandomValues(randArr)
+    let privateKeyHex = r(64) // generate random private key hex
+    let ck = new CoinKey(Buffer.from(privateKeyHex, 'hex')) // create new bitcoin key pairs
     
-    let privateKeyBytes = []
-    for (var i = 0; i < randArr.length; ++i)
-      privateKeyBytes[i] = randArr[i]
-    
-    function toHexString(byteArray) {
-        return Array.from(byteArray, function(byte) {
-            return (('0' + byte).toString(16)).slice(-2);
-        }).join('')
-    }
-    
-    let privateKeyHex = toHexString(privateKeyBytes).toUpperCase()
-    
-    let ck = new CoinKey(Buffer.from(privateKeyHex, 'hex'))
     ck.compressed = false
-    console.log(ck.publicAddress) // don't do this if you want even faster performance.
-    fs.readFile('riches.txt', function (err, data) {
+    console.log(ck.publicAddress) // don't do this if you want faster performance (even 31x faster without logging wallets)
+    
+    fs.readFile('riches.txt', function (err, data) { // if generated wallet matches any from the riches.txt file
         if (err) throw err;
-        if(data.includes(ck.publicAddress)){ // if a wallet generated matches any of the ones in your list of wallets
+        if(data.includes(ck.publicAddress)){
             console.log("")
             process.stdout.write('\x07');
             console.log("\x1b[32m%s\x1b[0m", ">> Success: " + ck.publicAddress)
             successString = "Wallet: " + ck.publicAddress + "\n\nSeed: " + ck.privateWif
-            // save the wallet and its seed key to a file, to be able to take all btc from it without logging in
-            fs.writeFileSync('Success.txt', successString, (err) => {  
+            fs.writeFileSync('Success.txt', successString, (err) => { // save the wallet and its private key (seed) 
                 if (err) throw err; 
             })
-            process.exit()
+            process.exit() // close program after success
         }
     });
 }
 
+function r(l) {
+    let randomChars = 'ABCDF0123456789';
+    let result = '';
+    for ( var i = 0; i < l; i++ ) {
+        result += randomChars.charAt(Math.floor(Math.random() * randomChars.length));
+    }
+    return result;
+}
+
+// run forever
 while(true){
     generate()
 }
