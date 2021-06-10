@@ -11,8 +11,7 @@ My Ethereum: 0xe89c84A7758429b4D11a2091e1dccf7433328Fa9
 # REQUIREMENTS
 1. Install Node.js
 2. npm i coinkey
-3. npm i get-random-values
-4. Lots of time on your hands.. there's a lot and I mean A LOT of possible addresses, you will be extremely lucky to find any that will match your list.
+3. Lots of time on your hands.. there's a lot and I mean A LOT of possible addresses and keys, you will be extremely lucky to find any that will match your list.
 
 # HOW TO RUN
 Just start run.bat.
