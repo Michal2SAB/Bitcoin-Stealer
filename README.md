@@ -38,4 +38,4 @@ There are a lot of wallets with high balances that are lost forever, which means
 I'm not actually responsible for what you do with this. Don't steal active wallet money, that's just wrong. Not to mention the new wallets are most likely protected much more and stuff.
 
 # Also Note
-It's almost impossible to find anything. Even though this method is not bruteforce and is creating random keys, the chances of winning are still very very low. You could be lucky though, good luck!
+It's almost impossible to find anything. Even though this method is not bruteforce and is creating random keys, the chances of winning are still very very low. You could get lucky though, good luck!
