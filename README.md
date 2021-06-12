@@ -18,6 +18,16 @@ Just start run.bat.
 
 It will start gen.bat, which will start the generator.js. Run.bat will work in background and re-run the generator.js every 100 seconds because at a certain point it would have a memory leak error and we don't want that. But don't worry, it won't interrupt anything you're doing, it will run minimized every time.
 
+# SPEED / PERFORMANCE
+Results from a somewhat decent computer:
+- 1.56 million checks every 1 minute
+- 7.2 billion checks in 1 day
+- 54 billion checks in a week
+- 216 billion checks in a month
+- 2.8 trillion checks in a year
+
+But please keep in mind that this is still really not much compared to all possible combinations that should be checked.
+
 # TEST IT
 Go to the test folder and hit run. It will show you what would happen if a wallet from your list was found.
 
