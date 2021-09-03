@@ -28,6 +28,10 @@ Results from a somewhat decent computer:
 
 But please keep in mind that this is still really not much compared to all possible combinations that should be checked.
 
+# VIDEO
+
+[![YT VID](http://img.youtube.com/vi/JaKDEWXOKn0/0.jpg)](http://www.youtube.com/watch?v=JaKDEWXOKn0 "Bitcoin - Find Private Keys (Seeds) For Lost and Rich Wallets | NEW 2021")
+
 # TEST IT
 Go to the test folder and hit run. It will show you what would happen if a wallet from your list was found.
 
