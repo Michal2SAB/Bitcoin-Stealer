@@ -2,7 +2,7 @@
 Generate random bitcoin wallets & private keys (seeds) and then check if they match any wallet that has a positive balance, and then take all the btc from it.
 
 # CHANGELOG 2021-09-26
-- Now also supports Linux. Didn't work before due to the .bat files that run the program.
+- Linux support: linux users will go to the "linux" directory to run the program.
 
 # WANT TO THANK ME?
 If you would like to tip me in case you won anything or you appreciate the program, here is my BTC wallet and ETH. It will be greatly appreciated. Also you can give this project a star :)
