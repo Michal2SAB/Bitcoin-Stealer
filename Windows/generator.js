@@ -1,26 +1,28 @@
 "use strict";
 
-const CoinKey = require('coinkey')
+process.title = "Bitcoin Stealer by Michal2SAB";
+
+const CoinKey = require('coinkey');
 const fs = require('fs');
 
 const data = fs.readFileSync('./riches.txt');
 
 function generate() {
     // generate random private key hex
-    let privateKeyHex = r(64)
+    let privateKeyHex = r(64);
     
     // create new bitcoin key pairs
-    let ck = new CoinKey(Buffer.from(privateKeyHex, 'hex'))
+    let ck = new CoinKey(Buffer.from(privateKeyHex, 'hex'));
     
-    ck.compressed = false
+    ck.compressed = false;
     //console.log(ck.publicAddress) - remove // if you wanna see the generated addresses but it slows down whole process a lot.
         
     // if generated wallet matches any from the riches.txt file, tell us we won!
     if(data.includes(ck.publicAddress)){
-        console.log("")
+        console.log("");
         process.stdout.write('\x07');
-        console.log("\x1b[32m%s\x1b[0m", ">> Success: " + ck.publicAddress)
-        successString = "Wallet: " + ck.publicAddress + "\n\nSeed: " + ck.privateWif
+        console.log("\x1b[32m%s\x1b[0m", ">> Success: " + ck.publicAddress);
+        successString = "Wallet: " + ck.publicAddress + "\n\nSeed: " + ck.privateWif;
             
         // save the wallet and its private key (seed) to a Success.txt file in the same folder 
         fs.writeFileSync('./Success.txt', successString, (err) => {
@@ -28,7 +30,7 @@ function generate() {
         })
             
         // close program after success
-        process.exit()
+        process.exit();
     }
 }
 
@@ -44,5 +46,5 @@ function r(l) {
 
 // run forever
 while(true){
-    generate()
+    generate();
 }
