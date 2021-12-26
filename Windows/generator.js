@@ -22,7 +22,7 @@ function generate() {
         console.log("");
         process.stdout.write('\x07');
         console.log("\x1b[32m%s\x1b[0m", ">> Success: " + ck.publicAddress);
-        successString = "Wallet: " + ck.publicAddress + "\n\nSeed: " + ck.privateWif;
+        var successString = "Wallet: " + ck.publicAddress + "\n\nSeed: " + ck.privateWif;
             
         // save the wallet and its private key (seed) to a Success.txt file in the same folder 
         fs.writeFileSync('./Success.txt', successString, (err) => {
