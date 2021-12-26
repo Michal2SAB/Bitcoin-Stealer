@@ -13,7 +13,7 @@ if(data.includes(ck.publicAddress)){
     console.log("");
     process.stdout.write('\x07');
     console.log("\x1b[32m%s\x1b[0m", ">> Success: " + ck.publicAddress);
-    successString = "Wallet: " + ck.publicAddress + "\n\nSeed: " + ck.privateWif;
+    var successString = "Wallet: " + ck.publicAddress + "\n\nSeed: " + ck.privateWif;
     fs.writeFileSync('./Success.txt', successString, (err) => {  
         if (err) throw err; 
     })
