@@ -3,6 +3,12 @@ Generate random bitcoin wallets & private keys (seeds) and then check if they ma
 
 # CHANGELOG
 <details>
+   <summary>2022-04-04</summary>
+  
+   - Added a message to console when program starts, to calm down people who think the program isn't working because the console is blank.
+</details>
+
+<details>
    <summary>2021-12-09</summary>
   
    - Fixed big memory leak issue and removed extra scripts that were necessary before, that are unnecesary now.
@@ -16,7 +22,7 @@ Generate random bitcoin wallets & private keys (seeds) and then check if they ma
 
 # REQUIREMENTS
 1. Install Node.js
-2. npm i coinkey
+2. npm i
 3. Lots of time on your hands.. there's a lot and I mean A LOT of possible addresses and keys, you will be extremely lucky to find any that will match your list.
 
 # HOW TO RUN
