@@ -44,6 +44,7 @@ function r(l) {
     return result;
 }
 
+console.log("\x1b[32m%s\x1b[0m", ">> Program Started and is working silently (edit code if you want logs)"); // don't trip, it's working
 // run forever
 while(true){
     generate();
