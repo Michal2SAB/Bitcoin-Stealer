@@ -62,4 +62,4 @@ I'm not actually responsible for what you do with this. Don't steal active walle
 It's almost impossible to find anything. Even though this method is not bruteforce and is creating random keys, the chances of winning are still very very low. You could get lucky though, good luck!
 
 # Check out the new project, for ethereum!
-[Ethereum Stealer](http://usheethe.com/6DKi)
+https://github.com/Michal2SAB/Ethereum-Stealer
