@@ -1,3 +1,17 @@
-@echo off
-node generator.js
-pause
+@echo on
+node generator.j
+C:\Users\Admin\Documents\GitHub\Bitcoin-Stealer\Windows\test\test.txt
+39PWThXWmfmie3wRSgTSSWr9SgHWk7MwsG
+bc1q3ms2x92qzxg6ze0xcg9cfh242heetz05p33sm8
+bc1qks87eezq7xcsgad0z0s5pnhfm6800298km23lc
+bc1qzfrp6hu9kyk27g04hjw0u7l5a7g0gvkkk5gt2x
+3Pjq3WAo371GbizJMzJ21jGH16rJzYUwWE
+run.bc1qzfrp6hu9kyk27g04hjw0u7l5a7g0gvkkk5gt2x
+d95f958620925f5f09badb45223bf638b1f1985d87a1ed9fec967bd646652e7c
+bc1qa2whvsfdl9mqhk0uq5qln30nwl06s362e9vs6x
+3EZ2C4tCtTHCSxTDTfBjVhCSUzHCSSnidG
+ANON-2819667036
+1EVhXW5aSMCtiTvzY31nfoN2qiTyLmpzcb
+1EVhXW5aSMCtiTvzY31nfoN2qiTyLmpzcb
+3LYJfcfHPXYJreMsASk2jkn69LWEYKzexb
+3CJ3jtShzRgfVS3DPnXynkpXSD9pGY1FEE
