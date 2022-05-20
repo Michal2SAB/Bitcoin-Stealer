@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "donjayamanne.githistory",
+        "utsavm9.c-cpp-flag-debugging",
+        "ms-vsliveshare.vsliveshare",
+        "ritwickdey.liveserver",
+        "vscjava.vscode-java-test",
+        "googlecloudtools.cloudcode",
+        "ms-vscode-remote.remote-containers",
+        "ms-kubernetes-tools.vscode-aks-tools",
+        "ms-edgedevtools.vscode-edge-devtools",
+        "ms-vscode.powershell",
+        "HCLTechnologies.hclappscancodesweep"
+    ]
+}

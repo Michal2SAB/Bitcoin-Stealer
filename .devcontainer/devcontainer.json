@@ -1,0 +1,55 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.234.0/containers/javascript-node
+{
+	"name": "Node.js",
+	"build": {
+		"dockerfile": "Dockerfile",
+		// Update 'VARIANT' to pick a Node version: 18, 16, 14.
+		// Append -bullseye or -buster to pin to an OS version.
+		// Use -bullseye variants on local arm64/Apple Silicon.
+		"args": { "VARIANT": "16-bullseye" }
+	},
+
+	// Set *default* container specific settings.json values on container create.
+	"settings": {},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"dbaeumer.vscode-eslint",
+		"donjayamanne.githistory",
+		"utsavm9.c-cpp-flag-debugging",
+		"MS-vsliveshare.vsliveshare",
+		"ritwickdey.LiveServer",
+		"vscjava.vscode-java-test",
+		"googlecloudtools.cloudcode"
+	],
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "yarn install",
+
+	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "node",
+	"features": {
+		"docker-in-docker": "latest",
+		"docker-from-docker": "latest",
+		"kubectl-helm-minikube": "latest",
+		"git": "os-provided",
+		"git-lfs": "latest",
+		"github-cli": "latest",
+		"aws-cli": "latest",
+		"azure-cli": "latest",
+		"desktop-lite": "latest",
+		"homebrew": "latest",
+		"fish": "latest",
+		"python": "os-provided",
+		"golang": "latest",
+		"java": "lts",
+		"maven": "latest",
+		"gradle": "latest",
+		"powershell": "latest",
+		"dotnet": "latest"
+	}
+}
