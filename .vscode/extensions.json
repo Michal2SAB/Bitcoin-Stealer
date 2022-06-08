@@ -10,6 +10,7 @@
         "ms-kubernetes-tools.vscode-aks-tools",
         "ms-edgedevtools.vscode-edge-devtools",
         "ms-vscode.powershell",
-        "HCLTechnologies.hclappscancodesweep"
+        "hcltechnologies.hclappscancodesweep",
+        "ms-vscode.atom-keybindings"
     ]
 }

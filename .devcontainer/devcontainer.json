@@ -21,7 +21,10 @@
 		"MS-vsliveshare.vsliveshare",
 		"ritwickdey.LiveServer",
 		"vscjava.vscode-java-test",
-		"googlecloudtools.cloudcode"
+		"googlecloudtools.cloudcode",
+		"ms-vsliveshare.vsliveshare",
+		"ms-vscode.atom-keybindings",
+		"ms-edgedevtools.vscode-edge-devtools"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

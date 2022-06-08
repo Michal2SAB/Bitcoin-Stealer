@@ -3,6 +3,10 @@
         "jannisx11.batch-rename-extension",
         "ms-kubernetes-tools.vscode-aks-tools",
         "ms-vscode-remote.remote-containers",
-        "ms-vscode.azurecli"
+        "ms-vscode.azurecli",
+        "googlecloudtools.cloudcode",
+        "github.vscode-pull-request-github",
+        "ritwickdey.liveserver",
+        "ms-edgedevtools.vscode-edge-devtools"
     ]
 }

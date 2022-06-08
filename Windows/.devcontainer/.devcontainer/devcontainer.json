@@ -19,7 +19,11 @@
 		"ms-kubernetes-tools.vscode-kubernetes-tools",
 		"ms-kubernetes-tools.vscode-aks-tools",
 		"ms-vscode-remote.remote-containers",
-		"ms-vscode.azurecli"
+		"ms-vscode.azurecli",
+		"googlecloudtools.cloudcode",
+		"GitHub.vscode-pull-request-github",
+		"ritwickdey.LiveServer",
+		"ms-edgedevtools.vscode-edge-devtools"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
