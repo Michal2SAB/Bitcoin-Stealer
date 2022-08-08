@@ -11,6 +11,8 @@
         "ms-edgedevtools.vscode-edge-devtools",
         "ms-vscode.powershell",
         "hcltechnologies.hclappscancodesweep",
-        "ms-vscode.atom-keybindings"
+        "ms-vscode.atom-keybindings",
+        "ms-kubernetes-tools.vscode-kubernetes-tools",
+        "formulahendry.code-runner"
     ]
 }

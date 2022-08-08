@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "tau-technologies.rhomobile-dev-tools",
+        "msjsdiag.cordova-tools",
+        "ms-vscode.powershell",
+        "robberphex.php-debug"
+    ]
+}

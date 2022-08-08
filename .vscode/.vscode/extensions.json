@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "hcltechnologies.hclappscancodesweep",
+        "ms-dotnettools.vscode-dotnet-pack",
+        "lizebang.bash-extension-pack",
+        "nilssoderman.batch-runner",
+        "jakebecker.elixir-ls",
+        "xdebug.php-debug"
+    ]
+}

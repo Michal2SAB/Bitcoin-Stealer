@@ -8,5 +8,31 @@
     ],
     "python.testing.pytestEnabled": false,
     "python.testing.unittestEnabled": true,
-    "liveServer.settings.port": 5502
+    "liveServer.settings.port": 5502,
+    "cSpell.words": [
+        "cloudcode",
+        "CMKS",
+        "dbaeumer",
+        "donjayamanne",
+        "edgedevtools",
+        "Feex",
+        "formulahendry",
+        "githistory",
+        "googlecloudtools",
+        "HPXY",
+        "Jfcf",
+        "kubectl",
+        "kubernetes",
+        "Kzexb",
+        "Lmpzcb",
+        "LWEY",
+        "minikube",
+        "ritwickdey",
+        "utsavm",
+        "vscjava",
+        "Wmfmie",
+        "Xynkp",
+        "ZEDWTKTF",
+        "Zphg"
+    ]
 }

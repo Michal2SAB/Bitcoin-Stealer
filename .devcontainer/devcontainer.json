@@ -24,7 +24,10 @@
 		"googlecloudtools.cloudcode",
 		"ms-vsliveshare.vsliveshare",
 		"ms-vscode.atom-keybindings",
-		"ms-edgedevtools.vscode-edge-devtools"
+		"ms-edgedevtools.vscode-edge-devtools",
+		"ms-kubernetes-tools.vscode-kubernetes-tools",
+		"formulahendry.code-runner",
+		"HCLTechnologies.hclappscancodesweep"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

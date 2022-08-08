@@ -2,3 +2,22 @@
 
 
 bc1q3ms2x92qzxg6ze0xcg9cfh242heetz05p33sm8
+
+
+
+
+
+
+End of file expected.
+
+[{
+	"resource": "/C:/Users/Admin/AppData/Roaming/Code/User/settings.json",
+	"owner": "_generated_diagnostic_collection_name_#4",
+	"severity": 8,
+	"message": "End of file expected.",
+	"source": "jsonc",
+	"startLineNumber": 1,
+	"startColumn": 27,
+	"endLineNumber": 1,
+	"endColumn": 28
+}]

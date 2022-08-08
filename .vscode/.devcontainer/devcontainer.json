@@ -1,0 +1,74 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.238.0/containers/java-8
+{
+	"name": "Java 8",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			// Use the VARIANT arg to pick a Debian OS version: buster, bullseye
+			// Use bullseye when running on local arm64/Apple Silicon.
+			"VARIANT": "bullseye",
+			// Options
+			"INSTALL_MAVEN": "true",
+			"INSTALL_GRADLE": "true",
+			"NODE_VERSION": "lts/*"
+		}
+	},
+
+	// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Set *default* container specific settings.json values on container create.
+			"settings": { 
+				"java.import.gradle.java.home": "/usr/local/sdkman/candidates/java/current",
+				"java.configuration.runtimes": [{
+					"default": true,
+					"name": "JavaSE-1.8",
+					"path": "/usr/local/sdkman/candidates/java/current"
+				}]
+			},
+			
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"vscjava.vscode-java-pack",
+				"HCLTechnologies.hclappscancodesweep",
+				"ms-dotnettools.vscode-dotnet-pack",
+				"lizebang.bash-extension-pack",
+				"NilsSoderman.batch-runner",
+				"JakeBecker.elixir-ls",
+				"xdebug.php-debug"
+			]
+		}
+	},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "java -version",
+
+	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "vscode",
+	"features": {
+		"docker-in-docker": "latest",
+		"docker-from-docker": "latest",
+		"kubectl-helm-minikube": "latest",
+		"terraform": "latest",
+		"git": "latest",
+		"git-lfs": "latest",
+		"github-cli": "latest",
+		"aws-cli": "latest",
+		"azure-cli": "latest",
+		"sshd": "latest",
+		"desktop-lite": "latest",
+		"homebrew": "latest",
+		"fish": "latest",
+		"python": "latest",
+		"golang": "latest",
+		"ruby": "latest",
+		"rust": "latest",
+		"powershell": "latest",
+		"dotnet": "latest"
+	}
+}
