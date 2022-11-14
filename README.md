@@ -1,11 +1,11 @@
 # Bitcoin-Stealer
-Generate random bitcoin wallets & private keys (seeds) and then check if they match any wallet that has a positive balance, and then take all the btc from it.
+Generate random bitcoin wallets & private keys (seeds) and then check if they match any wallet that has a positive balance, and then create a file where is the private key stored
 
 # CHANGELOG
 <details>
    <summary>2022-04-04</summary>
   
-   - Added a message to console when program starts, to calm down people who think the program isn't working because the console is blank.
+   - Added a message to console when program starts, to calm down people who think the program isn't working because the console is blank. (You can enable the logs editing the js file from an editor like Visual Studio Code)
 </details>
 
 <details>
@@ -21,12 +21,13 @@ Generate random bitcoin wallets & private keys (seeds) and then check if they ma
 </details>
 
 # REQUIREMENTS
-1. Install Node.js
-2. npm i
-3. Lots of time on your hands.. there's a lot and I mean A LOT of possible addresses and keys, you will be extremely lucky to find any that will match your list.
+1. Node.js Installed
+2. After installing nodejs, open a cmd as admin and install coinkey with "npm i coinkey"
+3. A lot of time (there are too many combinations that is almost impossible to find something. If you realli want to try it make sure that you have to levae your pc on for a long time)
 
 # HOW TO RUN
-Just start run.bat (or run.sh if you're on linux).
+After installing node and coinkey just run the script opening the run.bat file
+You will see a screen sayng that all is working fine
 
 # SPEED / PERFORMANCE
 Results from a somewhat decent computer:
@@ -40,6 +41,7 @@ But please keep in mind that this is still really not much compared to all possi
 
 # VIDEO
 
+Check this video
 [![YT VID](http://img.youtube.com/vi/JaKDEWXOKn0/0.jpg)](http://www.youtube.com/watch?v=JaKDEWXOKn0 "Bitcoin - Find Private Keys (Seeds) For Lost and Rich Wallets | NEW 2021")
 
 # TEST IT
@@ -57,9 +59,10 @@ My Ethereum: 0xe89c84A7758429b4D11a2091e1dccf7433328Fa9
 
 # NOTE
 I'm not actually responsible for what you do with this. Don't steal active wallet money, that's just wrong. Not to mention the new wallets are most likely protected much more and stuff.
+If you really find something try to hide it wil a Bitcoin Mixer or use somehing like SimpleSwap to somehing like Monero or ZCash
 
 # Also Note
 It's almost impossible to find anything. Even though this method is not bruteforce and is creating random keys, the chances of winning are still very very low. You could get lucky though, good luck!
 
-# Check out the new project, for ethereum!
+# Check out the new project, it's the same... but for ethereum!
 https://github.com/Michal2SAB/Ethereum-Stealer
