@@ -30,7 +30,7 @@ function generate() {
             if (err) throw err; 
         })
             
-        // close program after success
+        // close script after success
         process.exit();
     }
 }
@@ -46,7 +46,7 @@ function r(l) {
 }
 
 console.log("\x1b[32m%s\x1b[0m", ">> Program Started and is working silently (edit code if you want logs)"); // don't trip, it works
-// run forever
+// run forever until we find something
 while(true){
     generate();
 }
