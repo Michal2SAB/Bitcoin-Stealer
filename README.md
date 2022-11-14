@@ -26,8 +26,9 @@ Generate random bitcoin wallets & private keys (seeds) and then check if they ma
 3. A lot of time (there are too many combinations that is almost impossible to find something. If you realli want to try it make sure that you have to levae your pc on for a long time)
 
 # HOW TO RUN
-After installing node and coinkey just run the script opening the run.bat file
+After installing node and coinkey just run the .bat (for windows) or .sh (for linux) script and the tool should start working
 You will see a screen sayng that all is working fine
+If you got an error please check if you installed evereything. If the problem persists please open a GitHub Issue and the community will help you
 
 # SPEED / PERFORMANCE
 Results from a somewhat decent computer:
