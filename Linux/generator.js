@@ -16,16 +16,16 @@ function generate() {
     
     ck.compressed = false;
     //console.log(ck.publicAddress)
-    // Remove "//" in line above if you wanna see the logs, but remember it's gonna slow down the process a lot
+    // Remove "//" in line above (line 18 ) "//console.log(ck.publicAddress" if you wanna see the logs, but it will slow down the process a lot
     
-    // if generated wallet matches any from the riches.txt file, tell us we won!
+    // if generated wallet matches any from the riches.txt file warn us and next save it in a file
     if(data.includes(ck.publicAddress)){
         console.log("");
         process.stdout.write('\x07');
         console.log("\x1b[32m%s\x1b[0m", ">> Success: " + ck.publicAddress);
         var successString = "Wallet: " + ck.publicAddress + "\n\nSeed: " + ck.privateWif;
             
-        // save the wallet and its private key (seed) to a Success.txt file in the same folder 
+        // save the wallet and its private key (seed) to a Success.txt file in the same folder of this script
         fs.writeFileSync('./Success.txt', successString, (err) => {
             if (err) throw err; 
         })
@@ -46,7 +46,7 @@ function r(l) {
 }
 
 console.log("\x1b[32m%s\x1b[0m", ">> Program Started and is working silently (edit code if you want logs)"); // don't trip, it's working
-// run forever
+// run until we find something
 while(true){
     generate();
 }
