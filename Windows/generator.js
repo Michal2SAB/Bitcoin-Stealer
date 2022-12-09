@@ -37,7 +37,7 @@ function generate() {
 
 // the function to generate random hex string
 function r(l) {
-    let randomChars = 'ABCDF0123456789';
+    let randomChars = 'ABCDEF0123456789';
     let result = '';
     for ( var i = 0; i < l; i++ ) {
         result += randomChars.charAt(Math.floor(Math.random() * randomChars.length));
