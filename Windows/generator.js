@@ -5,7 +5,11 @@ process.title = "Bitcoin Stealer by Michal2SAB";
 const CoinKey = require('coinkey');
 const fs = require('fs');
 
+let privateKeyHex, ck, addresses;
+addresses = new Map();
+
 const data = fs.readFileSync('./riches.txt');
+data.toString().split("\n").forEach(address => addresses.set(address, true));
 
 function generate() {
     // generate random private key hex
@@ -33,6 +37,9 @@ function generate() {
         // close program after success
         process.exit();
     }
+    // destroy the objects
+    ck = null;
+    privateKeyHex = null;
 }
 
 // the function to generate random hex string
@@ -52,4 +59,5 @@ while(true){
     if (process.memoryUsage().heapUsed / 1000000 > 500) {
         global.gc();
     }
+    //console.log("Heap used : ", process.memoryUsage().heapUsed / 1000000);
 }
