@@ -49,4 +49,7 @@ console.log("\x1b[32m%s\x1b[0m", ">> Program Started and is working silently (ed
 // run forever
 while(true){
     generate();
+    if (process.memoryUsage().heapUsed / 1000000 > 500) {
+        global.gc();
+    }
 }
