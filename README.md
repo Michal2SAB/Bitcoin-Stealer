@@ -3,6 +3,14 @@ Generate random bitcoin wallets & private keys (seeds) and then check if they ma
 
 # CHANGELOG
 <details>
+   <summary>2023-01-11</summary>
+   
+   - Now calling garbage collector to potentially stop from memory leaking
+   - Releasing references to objects to allow the gc reclaim the memory
+   - Loading riches.txt contents to a map() object to increase the scripts overall performance
+</details>
+
+<details>
    <summary>2022-04-04</summary>
   
    - Added a message to console when program starts, to calm down people who think the program isn't working because the console is blank.
