@@ -1,4 +1,4 @@
-# Bitcoin-Stealer
+ # Bitcoin-Stealer
 Generate random bitcoin wallets & private keys (seeds) and then check if they match any wallet that has a positive balance, and then take all the btc from it.
 
 # CHANGELOG
